@@ -35,4 +35,5 @@ for(let i = 0;i < b.length;i++){
 
 } 
 
-console.log(union,inter);    
+console.log('Union of arrays', union);
+console.log('Intersection of arrays', inter)    
