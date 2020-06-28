@@ -31,7 +31,7 @@ const longestDupSubstring = (S) => {
     let l = 0;
     let r = n;
     while (l < r) {
-      const m = l + (r - l) / 2;
+      const m = parseInt(l + (r - l) / 2);
       if (search(m) !== -1) l = m + 1;
       else r = m;
     }
